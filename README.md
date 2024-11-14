@@ -18,7 +18,6 @@ Linux Kernel cheatsheet
 - **`setgid()`**: Sets the group ID of the calling process.
 - **`getpriority()`**: Gets the priority of a process.
 - **`setpriority()`**: Sets the priority of a process.
-- **`kill()`**: Sends a signal to a process or a group of processes.
 - **`nice()`**: Changes the priority of a process.
 - **`sched_yield()`**: Yields the processor to allow other processes to run.
 - **`sched_setparam()`**: Sets the scheduling parameters of a process.
@@ -115,7 +114,7 @@ Linux Kernel cheatsheet
 
 ## 6. Signals
 - **`signal()`**: Sets a signal handler for a specific signal.
-- **`kill()`**: Sends a signal to a process.
+- **`kill()`**: Sends a signal to a process or a group of processes.
 - **`raise()`**: Sends a signal to the calling process.
 - **`sigaction()`**: Examines or changes the action for a specific signal.
 - **`sigprocmask()`**: Examines or changes the set of blocked signals.
