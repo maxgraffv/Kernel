@@ -22,11 +22,6 @@ int main(int argc, char** argv)
 		PROCESS MANAGEMENT
 	*/
 
-
-
-
-
-
 	processMgmt();
 
 
@@ -35,12 +30,12 @@ int main(int argc, char** argv)
 		FILE OPERATIONS
 	*/
 
-	// open();
-	// close()
-	// read()
-	// write()
+	open();
+	close()
+	read()
+	write()
 
-	// lseek()
+	lseek()
 
 	// stat()
 	// fstat()
