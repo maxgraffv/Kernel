@@ -15,6 +15,7 @@
 #include <linux/sched.h> //CLONE_VM and other flags
 
 void processMgmt();
+void fileOperations();
 
 int main(int argc, char** argv)
 {
@@ -30,44 +31,7 @@ int main(int argc, char** argv)
 		FILE OPERATIONS
 	*/
 
-	open();
-	close()
-	read()
-	write()
-
-	lseek()
-
-	// stat()
-	// fstat()
-	// lstat(
-
-	// rename()
-	// mkdir()
-	// rmdir()
-
-	// unlink()
-
-	// chmod()
-	// fchmod()
-
-	// fsync()
-	// fdatasync()
-
-	// access()
-
-	// flock()
-
-	// readlink()
-	// symlink()
-	// link()
-	// umask()
-	// getcwd()
-	// chdir()
-	//fchdir()
-	//mknod()
-
-
-
+	
 
 	/*
 		MEMORY MANAGEMENT
@@ -306,3 +270,51 @@ void processMgmt()
 	
 	*/
 };
+
+void fileOperations()
+{
+
+
+open();
+	close()
+	read()
+	write()
+
+	lseek()
+
+	// stat()
+	// fstat()
+	// lstat(
+
+	// rename()
+	// mkdir()
+	// rmdir()
+
+	// unlink()
+
+	// chmod()
+	// fchmod()
+
+	// fsync()
+	// fdatasync()
+
+	// access()
+
+	// flock()
+
+	// readlink()
+	// symlink()
+	// link()
+	// umask()
+	// getcwd()
+	// chdir()
+	//fchdir()
+	//mknod()
+
+
+
+
+
+
+
+}
