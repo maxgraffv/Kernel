@@ -166,7 +166,7 @@ int main()
    
 
    pthread_key_create(key, &data);
-   pthread_setspecific();
+   pthread_setspecific(key, &data);
    pthread_getspecific(key);
    pthread_key_delete(key);
 
