@@ -141,23 +141,23 @@ Linux Kernel cheatsheet
 <br><br>
 
 # To Be Done
-- [] File Operations
-  - [] unistd.h
-  - [] sys/file.h
-  - [] sys/epoll.h
-- [] Process Control
-  - [] sys/wait.h
-  - [] signal.h
-- [] IPC
-  - [] sys/ipc.h
-  - [] sys/shm.h
-  - [] sys/sem.h
-  - [] sys/msg.h
-- [] Memory
-  - [] stdlib.h
-  - [] string.h
-- [] Sys
-  - [] mman.h
-  - [] eventfd.h
-- [] Dynamic Library
-  - [] dlfcn.h
+- [ ] File Operations
+  - [ ] unistd.h
+  - [ ] sys/file.h
+  - [ ] sys/epoll.h
+- [ ] Process Control
+  - [ ] sys/wait.h
+  - [ ] signal.h
+- [ ] IPC
+  - [ ] sys/ipc.h
+  - [ ] sys/shm.h
+  - [ ] sys/sem.h
+  - [ ] sys/msg.h
+- [ ] Memory
+  - [ ] stdlib.h
+  - [ ] string.h
+- [ ] Sys
+  - [ ] mman.h
+  - [ ] eventfd.h
+- [ ] Dynamic Library
+  - [ ] dlfcn.h
